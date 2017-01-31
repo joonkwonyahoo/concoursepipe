@@ -8,7 +8,7 @@ image_resource:
 inputs:
 - name: concourse-git
 run:
-  path: concourse-git/tasks/scripts/update.sh
+  path: env
 # args: ["ssh"]
 params:
   SAMPLE_PARAM:  concourse
