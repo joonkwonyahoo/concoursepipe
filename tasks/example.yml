@@ -9,6 +9,6 @@ inputs:
 - name: concourse-git
 run:
   path: apt-get
- args: ["update"]
+  args: ["update"]
 params:
   SAMPLE_PARAM:  concourse
