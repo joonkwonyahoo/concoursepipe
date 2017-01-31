@@ -1,0 +1,14 @@
+---
+platform: linux
+image_resource:
+  type: docker-image
+  source:
+    repository: 10.113.8.12:5000/ubuntu
+    insecure_registries: ["10.113.8.12:5000"]
+inputs:
+- name: concourse-git
+run:
+path: concourse-git/tasks/update.sh
+args: ["ssh"]
+params:
+  SAMPLE_PARAM:  concourse
