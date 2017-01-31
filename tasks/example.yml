@@ -9,6 +9,6 @@ inputs:
 - name: concourse-git
 run:
 path: concourse-git/tasks/update.sh
-args: ["ssh"]
+# args: ["ssh"]
 params:
   SAMPLE_PARAM:  concourse
