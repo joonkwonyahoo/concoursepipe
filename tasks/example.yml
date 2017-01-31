@@ -8,7 +8,7 @@ image_resource:
 inputs:
 - name: concourse-git
 run:
-  path: env
-# args: ["ssh"]
+  path: apt-get
+ args: ["update"]
 params:
   SAMPLE_PARAM:  concourse
