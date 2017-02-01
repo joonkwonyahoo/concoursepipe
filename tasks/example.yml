@@ -8,7 +8,7 @@ image_resource:
 inputs:
 - name: concourse-git
 run:
-  path: apt-get
-  args: ["update"]
+  path: concourse-git/tasks/scripts/update.sh
+#  args: ["update"]
 params:
   SAMPLE_PARAM:  concourse
